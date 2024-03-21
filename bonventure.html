@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        bonventure fidel
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+       
+        * {
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            padding: 15px;
+            background: linear-gradient(120deg, lightblue ,lightpink,grey);
+            float: left;
+        }
+
+
+        .profile{
+           
+            width: 140px;
+            height: 140px;
+            border-radius: 140px;
+        }
+        .juvenile{
+            height: 200px;
+        }
+
+        
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h1 {
+            color: rgb(135, 16, 139);
+        }
+
+        a {
+            text-decoration: none;
+            color: #5673C8;
+        }
+
+        a:hover {
+            color: lightblue;
+        }
+
+     
+        p {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            overflow: hidden;
+
+        }
+
+     
+        .row {
+            margin: 0px -18px;
+            padding: 8px;
+        }
+
+        .row,
+        .column {
+            padding: 6px;
+        }
+
+        .column {
+            float:left;
+            width: 25%;
+            display: inline-block;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+       
+        .content {
+            background-color:rgb(226, 226, 226);
+            padding: 10px;
+            border: 1px solid gray;
+            font-family: sans-serif;
+        
+        }
+
+        @media screen  and (max-width: 850px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+      
+        @media screen and (max-width: 400px) {
+            .column {
+                width: 50%;
+            }
+        }
+
+        .email:hover{
+            color: crimson;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div >
+        <img class="profile" src="pictures/profile.jpg">
+    </div>
+
+   
+    <div class="container">
+        <h1>BONVENTURE FIDEL</h1>
+        <h3>Statistician/data analyst</h3>
+        <hr>
+
+        <div> 
+            <h2>About Me</h2>
+            <p>Bonventure is a student at kisii university , currently doing bsc in computer science.Im a junior computer science student who is eager to learn more in technology. </p>
+
+        </div>
+
+        <h2>my works</h2>
+        <div class="row">
+            <div class="column">
+                <div class="content">
+                    <img class="juvenile"     src="pictures/data1.jfif" alt="" style="width:100%">
+                    <h3>
+                        <a href="#">juvenile delinquency</a>
+                    </h3>
+                    <p>
+                       Juvenile delinquency is my project in data aanalysis to investigate and research on various factors affecting highschool students and their causes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="pictures/data2.jfif" alt="" style="width:100%">
+                    <h3>
+                        <a href="#">Cancer rates</a>
+                    </h3>
+                    <p>
+                       this is a project meant to study on various causes of cancer, control measures and treatement processes per the cancer stage, its meant to give a recomendation per every condition stated.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="pictures/data3.jfif" alt="" style="width:100%">
+                    <h3>
+                        <a href="#">Drug use</a>
+                    </h3>
+
+                    <p>
+                        Drug use is meant to investigate on various causes of drug and substance abuse among the youth, its consequences and remedies towards it.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="pictures/data4.jfif" alt=""
+                        style="width:100% " >
+                    <h3>
+                        <a href="#">Network usage </a>
+                    </h3>
+                    <p>
+                        Network usage is my project on data analysis to do reasearch on the relation between data usage and age of the user. It targets to explain why and how the two variables relate and for time prediction and future analytics
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="skills "> 
+            <h2>skills</h2>
+            <div class="column">
+                <div class="content">
+                    <img src="pictures/spss.png" alt="" style="width:100%">
+                    <h3>
+                        <a href="#">SPSS</a>
+                    </h3>
+            
+                    <p>
+                    SPSS (Statistical Package for the Social Sciences), also known as IBM SPSS Statistics, is a software package used for
+                    the analysis of statistical data.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="pictures/sata.jfif" alt="" style="width:100%">
+                    <h3>
+                        <a href="#">SATA</a>
+                    </h3>
+            
+                    <p>
+                        SATA is commonly used for connecting hard drives, solid-state drives, and optical drives (like digital video disc (DVD)
+                        or Blu-ray drives) to your computer.
+                    </p>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="content">
+                    <img src="pictures/r.jfif" alt="" style="width:100%">
+                    <h3>
+                        <a href="#">R</a>
+                    </h3>
+            
+                    <p>
+                        Used in fields including data science, finance, academia, and more, R is powerful, flexible, and extensible.
+                        </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="content">
+                    <img src="pictures/python.png" alt="" style="width:100%">
+                    <h3>
+                        <a href="#">PYTHON</a>
+                    </h3>
+            
+                    <p>
+                        Python is commonly used for developing websites and software, task automation, data analysis, and data visualization
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        <BR>
+            <br>
+            <p> Find me via email through : <br><a class="email"href="http://www.fidelbonventure@gmail.com"> fidelbonventure@gmail.com</a> </p>
+</body>
+
+</html>
